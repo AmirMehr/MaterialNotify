@@ -7,16 +7,18 @@ You can edit and add you app theme color.
 Feel free to add pull requests or issues.
 
 <h3>Installation</h3>
-Add <b>materialNotify.js</b>
-<script  src="./materialNotify.js"></script>
+Add <b>materialNotify.js</b><br/>
+    <script  src="./materialNotify.js"></script>
 
-And <b>materialNotify.css</b> in your html
-<link rel="stylesheet" href="./materialNotify.css">
+And <b>materialNotify.css</b> in your html<br/>
+    <link rel="stylesheet" href="./materialNotify.css">
 
-Then call <b>notify(text, duration, isRed, onDone)</b> method.
+Then call<br/>
+    notify(text, duration, isRed, onDone)
+
 
 <h3>Document</h3>
-<b>text</b> is text showing in notify.
-<b>duration</b> is time in seconds.
-<b>isRed</b>, true for alert and false for success notify.
+<b>text</b> is text showing in notify.<br/>
+<b>duration</b> is time in seconds.<br/>
+<b>isRed</b>, true for alert and false for success notify.<br/>
 <b>onDone</b> is function called after notify hides.
