@@ -8,6 +8,7 @@ Feel free to add pull requests or issues.
 
 <h3>Installation</h3>
 Add <b>materialNotify.js</b><br/>
+
 ```
     <script  src="./materialNotify.js"></script>
 ```
