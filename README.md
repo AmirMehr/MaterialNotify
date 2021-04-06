@@ -28,4 +28,5 @@ Then call<br/>
 <b>text</b> is text showing in notify.<br/>
 <b>duration</b> is time in seconds.<br/>
 <b>isRed</b>, true for alert and false for success notify.<br/>
-<b>onDone</b> is function called after notify hides.
+<b>onDone(optional)</b> is function called after notify hides.
+
