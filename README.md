@@ -1,5 +1,5 @@
 # MaterialNotify
-An ultra super lightweight material notification with Javascript and css
+An ultra super lightweight material notification with Javascript and css.
 
 <a href="https://codepen.io/AmirMhr/pen/ZELJBVR">Demo</a>
 
@@ -30,3 +30,4 @@ Then call<br/>
 <b>isRed</b>, true for alert and false for success notify.<br/>
 <b>onDone(optional)</b> is function called after notify hides.
 
+You can show multiple notification at same time without limit.
