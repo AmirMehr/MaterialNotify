@@ -1,5 +1,5 @@
 # MaterialNotify
-An ultra super lightweight material notification with Javascript and css.
+An ultra super lightweight material notification with Javascript(JQuery) and css.
 
 <a href="https://codepen.io/AmirMhr/pen/ZELJBVR">Demo</a>
 
