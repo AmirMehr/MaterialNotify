@@ -11,17 +11,17 @@ Feel free to add pull requests or issues.
 Add <b>materialNotify.js</b><br/>
 
 ```
-    <script  src="./materialNotify.js"></script>
+<script  src="./materialNotify.js"></script>
 ```
 
 And <b>materialNotify.css</b> in your html<br/>
 ```
-    <link rel="stylesheet" href="./materialNotify.css">
+<link rel="stylesheet" href="./materialNotify.css">
 ```
 
 Then call<br/>
 ```
-    notify(text, duration, isRed, onDone)
+notify(text, duration, isRed, onDone)
 ```
 
 <br/><br/>
