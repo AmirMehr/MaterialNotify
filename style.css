@@ -24,6 +24,25 @@
     bottom: 0;
 }
 
+.close {
+    float: left;
+    padding: 8px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    cursor: pointer;
+    margin-left: 0!important
+}
+
+.close:hover {
+    color: #aaa;
+}
+
+.closeNotify {
+    top: -5px;
+    left: -1px;
+}
+
 @media (max-width:767px) {
     .topAlert {
         right: 0px;
