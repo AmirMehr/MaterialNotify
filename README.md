@@ -2,7 +2,7 @@
 An ultra super lightweight material notification with Javascript(JQuery) and CSS.<br/>
 In android I love to use snackbar, now I made something like that in HTML.
 
-<a href="https://codepen.io/AmirMhr/pen/ZELJBVR">Demo</a>
+<a target="_blank" href="https://codepen.io/AmirMhr/pen/ZELJBVR">Demo</a>
 
 You can edit and add you app theme color.
 Feel free to add pull requests or issues.
