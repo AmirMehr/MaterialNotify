@@ -1,14 +1,21 @@
+
 var notifyArray = [];
 function notify(txt, time, isRed, functionOnDone) {
-  $('<div style="' + "background-color:" + ((isRed) ? "#ef394e" : "#009688") + '" class="topAlert">' + txt + '<span class="close closeNotify"><i class="fas fa-times"></i></span><p class="alertBottomProgress"></p></div>').appendTo("body");
+  $('<div style="' + "background-color:" + ((isRed) ? "#ef394e" : "#009688") + '" class="topAlert">' + txt + '<span class="close closeNotify">x</span><p class="alertBottomProgress"></p></div>').appendTo("body");
   var el = $(".topAlert:last");
   var id = (new Date()).getTime();
   var bottomProgress = el.find(".alertBottomProgress");
 
   var obj = { id: id, el: el };
+  
   el.find(".closeNotify").click(function () {
     removeTopAlert(obj, 200);
+    if (typeof functionOnDone !== 'undefined') {
+      functionOnDone();
+      functionOnDone = undefined;// To impede call it again after 
+    }
   })
+  
   notifyArray.push(obj);
   bottomProgress.animate({ width: "100%" }, time * 1000, function () {
     removeTopAlert(obj, 700);
@@ -49,8 +56,10 @@ function removeFromArray(arr, item) {
 notify("Alert text", 10, true);
 notify("Success text", 10, false);
 setTimeout(function(){
-  notify("Alert text after 3 seconds ", 10, true);
+  notify("Alert text after 3 seconds ", 7, true);
   notify("Success text after 3 seconds", 10, false, function(){
     notify("On done function test", 10, false);
   });
 }, 3000);
+
+
